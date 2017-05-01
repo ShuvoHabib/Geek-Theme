@@ -1,0 +1,200 @@
+a.down-link{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background: #d83454;
+	border-radius: 50%;
+	border: 2px solid white;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 50px;
+	img{
+		width: 20px;
+	}
+}
+
+.block-title{
+	font-size: 60px;
+	color: #414042;
+	margin-top: 70px;
+}
+
+.graybg{
+	background: #f1f2f2;
+}
+
+.header{
+	background: #d83454;
+	height: 100vh;
+	position: relative;
+	&__logo{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		img{
+			width: 256px;
+		}
+	}
+	&__title{
+		font-size: 20px;
+		color: white;
+		position: absolute;
+		bottom: 140px;
+		left: 50%;
+		transform: translateX(-50%);
+		max-width: 450px;
+		line-height: 29px;
+	}
+}
+
+.about{
+	background: #f1f2f2;
+	&__few, &__other, &__us{
+		position: relative;
+		height: 100vh;
+		.about__banner{
+			position: absolute;
+			top: 150px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 447px;
+		}
+	}
+	&__meta{
+		color: #414042;
+		font-size: 28px;
+		position: absolute;
+		bottom: 115px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		&--highlight{
+			color: #d83454;
+		}
+	}
+}
+
+
+.services{
+	position: relative;
+	height: 100vh;
+	&__block{
+		background: #d83454;
+		width: 190px;
+		height: 190px;
+		border-radius: 50%;
+		line-height: 190px;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		img{
+			width: 100px;
+		}
+
+	}
+	&__title{
+		color: #414042;
+		font-size: 20px;
+	}
+	.block-title{
+		margin-bottom: 110px;
+	}
+}
+
+
+
+
+.clients{
+	position: relative;
+	height: 100vh;
+	.block-title{
+		padding-top: 60px;
+	}
+	.carousel-center{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.arrow-slide.arrow-slide--left {
+		position: absolute;
+		left: -100px;
+		top: 20%;
+		transform: translateY(-50%);
+	}
+	.arrow-slide.arrow-slide--right {
+		position: absolute;
+		right: -100px;
+		top: 20%;
+		transform: translateY(-50%);
+	}
+
+	.owl-theme .owl-nav [class*='owl-'] {
+		background: transparent;
+	}
+}
+
+
+.find-us{
+	position: relative;
+	height: 100vh;
+	.map {
+		margin-top: 50px;
+		pointer-events:none;
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+		-ms-filter: grayscale(100%);
+		-o-filter: grayscale(100%);
+		filter: grayscale(100%);
+	}
+}
+
+.contact-us{
+	height: 100vh;
+	&__number{
+		color: #414042;
+		font-size: 20px;
+	}
+	form{
+		max-width: 440px;
+		margin-top: 50px;
+		textarea{
+			width: 100%;
+			height: 150px;
+			border: 2px solid #cccccc;
+			margin-bottom: 20px;
+		}
+		input{
+			height: 55px;
+			margin-bottom: 20px;
+			border: 2px solid #cccccc;
+		}
+		.form-btn{
+			background: #d83454;
+		    width: 100%;
+		    color: white;
+		    padding: 16px 0;
+		    border: none;
+		    margin-bottom: 20px;
+		    font-size: 20px;
+		}
+		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			color: #414042;
+			font-size: 20px;
+		}
+		::-moz-placeholder { /* Firefox 19+ */
+			color: #414042;
+			font-size: 20px;
+		}
+		:-ms-input-placeholder { /* IE 10+ */
+			color: #414042;
+			font-size: 20px;
+		}
+		:-moz-placeholder { /* Firefox 18- */
+			color: #414042;
+			font-size: 20px;
+		}
+	}
+}
