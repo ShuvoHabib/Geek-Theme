@@ -21,32 +21,33 @@
     <body>
         <header class="header text-center">
             <div class="header__logo">
-                <img src="images/logo.png" alt="Geek Level">
+            <img alt="Geek" src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/logo.png'; ?>"> 
             </div>
             <h1 class="header__title">A team of self confessed geeks who are all about great digital design</h1>
             <a href="#about__few" class="down-link">
-                <img src="images/angle-down.png" alt="">
+                <img alt="Geek" src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/angle-down.png'; ?>"> 
             </a>
         </header>
 
         <div class="about text-center">
             <div id="about__few" class="about__few">
-                <img src="images/sec1.png" class="about__banner img-responsive" alt="Section One">
+                <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/sec1.png'; ?>" class="about__banner img-responsive" alt="Section One">
+
                 <p class="about__meta">
                     Some agencies love <span class="about__meta--highlight">design</span>, but doesn’t know how to build
                 </p>
                  <a href="#about__other" class="down-link">
-                     <img src="images/angle-down.png" alt="">
+                     <img alt="Geek" src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/angle-down.png'; ?>">
                  </a>
             </div>
 
             <div id="about__other" class="about__other">
-                <img src="images/sec2.png" class="about__banner img-responsive" alt="Section One">
+                <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/sec2.png'; ?>" class="about__banner img-responsive" alt="Section Two">
                 <p class="about__meta">
                     Some agencies know how to <span class="about__meta--highlight">build</span> but can’t do design
                 </p>
                  <a href="#about__us" class="down-link">
-                     <img src="images/angle-down.png" alt="">
+                     <img alt="Geek" src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/angle-down.png'; ?>">
                  </a>
             </div>
 
@@ -56,7 +57,7 @@
                     We love <span class="about__meta--highlight">both</span>
                 </p>
                 <a href="#services" class="down-link">
-                     <img src="images/angle-down.png" alt="">
+                     <img alt="Geek" src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/angle-down.png'; ?>">
                  </a>
             </div>
             
@@ -67,31 +68,31 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="services__block">
-                        <img src="images/icon1.png" alt="Web Development">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/icon1.png'; ?>" alt="Web Development">
                     </div>
                     <h5 class="services__title">Web Development</h5>
                 </div>
                 <div class="col-md-3">
                     <div class="services__block">
-                        <img src="images/icon2.png" alt="Web Development">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/icon2.png'; ?>" alt="Web Development">
                     </div>
                     <h5 class="services__title">Web Development</h5>
                 </div>
                 <div class="col-md-3">
                     <div class="services__block">
-                        <img src="images/icon3.png" alt="Web Development">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/icon3.png'; ?>" alt="Web Development">
                     </div>
                     <h5 class="services__title">Web Development</h5>
                 </div>
                 <div class="col-md-3">
                     <div class="services__block">
-                        <img src="images/icon4.png" alt="Web Development">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/icon4.png'; ?>" alt="Web Development">
                     </div>
                     <h5 class="services__title">Web Development</h5>
                 </div>
             </div>
             <a href="#clients" class="down-link">
-                <img src="images/angle-down.png" alt="">
+                <img alt="Geek" src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/angle-down.png'; ?>">
             </a>
         </div>
 
@@ -101,21 +102,21 @@
                 <div class="container carousel-center">
                     <div class="owl-carousel clients__logo owl-theme">
                         <div class="clients__item">
-                            <img src="images/slider1.png" alt="">
+                            <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/slider1.png'; ?>" alt="">
                         </div>
                         <div class="clients__item">
-                            <img src="images/slider2.png" alt="">
+                            <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/slider2.png'; ?>" alt="">
                         </div>
                         <div class="clients__item">
-                            <img src="images/slider3.png" alt="">
+                            <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/slider3.png'; ?>" alt="">
                         </div>
                         <div class="clients__item">
-                            <img src="images/slider1.png" alt="">
+                            <img src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/slider4.png'; ?>" alt="">
                         </div>
                     </div>
                 </div>
                 <a href="#find-us" class="down-link">
-                    <img src="images/angle-down.png" alt="">
+                    <img alt="Geek" src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/angle-down.png'; ?>">
                 </a>
             </div>
 
@@ -124,7 +125,7 @@
                 <h2 class="block-title visible-xs">Find us</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24379.627245566964!2d-8.407666514728884!3d40.19897616326834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1429696780951" width="100%" height="380" frameborder="0" style="border:0" class="map"></iframe>
                 <a href="#contact" class="down-link">
-                    <img src="images/angle-down.png" alt="">
+                    <img alt="Geek" src="<?php print base_path() . drupal_get_path('theme', 'geek') . 'sites/all/themes/app/images/angle-down.png'; ?>">
                 </a>
             </div>
 
