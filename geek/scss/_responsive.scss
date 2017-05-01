@@ -1,0 +1,109 @@
+
+/* -------------------------------------------------
+/* width <= 1500px
+/* -------------------------------------------------*/
+
+
+@media only screen and (min-width: 1361px) {
+	.owl-dots{
+		display: none;
+	}
+}
+
+
+/* -------------------------------------------------
+/* width <= 1300px
+/* -------------------------------------------------*/
+
+
+@media only screen and (max-width: 1360px) {
+	.arrow-slide{
+		display: none;
+	}
+}
+
+/* -------------------------------------------------
+/* width <= 1200px
+/* -------------------------------------------------*/
+@media only screen and (max-width: 990px) {
+	.services{
+		width: 300px;
+		&__block{
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+			margin: 0;
+			margin-top: -10px;
+			float: left;
+			img{
+				width: 25px;
+			}
+
+		}
+		.col-md-3{
+			clear: both;
+			margin-bottom: 45px;
+		}
+		
+		&__title{
+			color: #414042;
+			font-size: 20px;
+			display: inline-block;
+		}
+		.block-title{
+			margin-bottom: 110px;
+		}
+	}
+	.clients .carousel-center {
+		position: static;
+		margin-top: 200px;
+		transform: initial;
+	}
+	.owl-carousel .owl-item img {
+		width: 200px;
+		margin: 0 auto;
+	}
+}
+
+/* -------------------------------------------------
+/* width <= 800px
+/* -------------------------------------------------*/
+@media only screen and (max-width: 800px) {
+	.header{
+		&__logo{
+			top: 35%;
+		}
+	}
+
+
+	.about{
+		&__banner{
+			width: 250px !important;
+		}
+		&__meta{
+			width: 250px;
+		}
+	}
+	
+	a.down-link {
+		bottom: 10px;
+	}
+	.contact-us form{
+		width: 250px;
+	}
+}
+
+/* -------------------------------------------------
+/* width <= 667px
+/* -------------------------------------------------*/
+@media only screen and (max-width: 667px) {
+
+}
+
+/* -------------------------------------------------
+/* width <= 600px
+/* -------------------------------------------------*/
+@media only screen and (max-width: 400px) {
+
+
+}
