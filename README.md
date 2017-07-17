@@ -1,4 +1,7 @@
-#Geek Theme for Drupal 7
+## This project was created for this blog post: 
+## https://medium.com/@shuvohabib/learn-css-bem-methodology-by-two-complete-free-template-c0f531f49cdb
+
+#U Geek Theme
 
 - BEM methodology. 
 - SCSS. 
